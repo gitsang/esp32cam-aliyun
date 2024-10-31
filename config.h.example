@@ -1,0 +1,6 @@
+#define WIFI_SSID "TP-LINK_1760"
+#define WIFI_PASSWD "987654321"
+
+#define PRODUCT_KEY "k0xxxxxIM"
+#define DEVICE_NAME "esp001_001"
+#define DEVICE_SECRET "589xxxxxxxxxxxxxxxxxxxe0f"

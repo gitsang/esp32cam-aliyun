@@ -98,7 +98,7 @@ void mqtt_callback(char *topic, byte *payload, unsigned int length) {
 
   if (strstr(topic, ALINK_TOPIC_PROP_SET)) {
     StaticJsonBuffer<100> jsonBuffer;
-    JsonObject &root = jsonBuffer.parseObject(payload);
+    JsonObject root = jsonBuffer.parseObject(payload);
     if (!root.success()) {
       Serial.println("parseObject() failed");
       return;

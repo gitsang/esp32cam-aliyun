@@ -7,7 +7,7 @@
 // #include "aliyun_mqtt.h"
 #include "aliyunmqtt.h"
 
-#include <SHA256.h>
+#include <sha256.h>
 
 #define MQTT_PORT 1883
 #define SHA256HMAC_SIZE 32
